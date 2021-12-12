@@ -3,32 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>INCHILLMUSIC</title>
 </head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: auto;
+        height: 100vh;
+        z-index: -1;
+    }
+    .text{
+        height: 50vh;
+        background-color: #fff;
+    }
+    .text h1{
+        color: #000;
+    }
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+</style>
 
 <body>
-    <div id="container">
-        <section id="img1" class="img"></section>
-        <section id="content1">
-            <p
+    <div class="shell">
+        <div class="image" style="background-image: url('images/1.jpg');"></div>
+        <div class="heading">
+            <h1></h1>
+        </div>
+        <div class="text">
+            <h1></h1>
+        </div>
+
+        <div class="image" style="background-image: url('images/2.JPG');"></div>
+        <div class="heading">
+            <h1></h1>
+        </div>
+        <div class="text">
+            <h1><p
                 style="font-size: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
                 <a href='https://music.163.com/#/artist?id=12358952' target="_blank">MY MUSIC</a>
-            </p>
-        </section>
-        <section id="img2" class="img"></section>
-        <section id="content2"><p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">FLLOW MY</p>
-            <p
-                style="font-size: 40px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-                <a href='https://instagram.com/inchillmusic?r=nametag' target="_blank">INSTAGRAM</a>
-            
-        </section>
-        <section id="img3" class="img">IMG 3</section>
-        <section id="footer">FOOTER</section>
+            </p></h1>
+        </div>
+
+        <div class="image" style="background-image: url('./3.jpg');"></div>
+        <div class="heading">
+            <h1>When prople leave you</h1>
+        </div>
+        <div class="text">
+            <h1><p
+                style="font-size: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            CONTACT ME WITH:</p>
+            <a href='https://instagram.com/inchillmusic?r=nametag' target="_blank">Instagram</a>
+            </h1>
+        </div>
+
+        <div class="image" style="background-image: url('./4.jpg');"></div>
+        <div class="heading">
+            <h1>Come on,stranger.</h1>
+        </div>
     </div>
 </body>
-
 
 <head>
     <meta charset="UTF-8">
