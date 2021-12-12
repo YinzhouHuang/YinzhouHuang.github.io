@@ -19,7 +19,7 @@ section{
     align-items: center;
 }
 .img{
-    background-size:contain;
+    background-size:55%;
     background-position: center;
     overflow: hidden;
     background-attachment: fixed;
