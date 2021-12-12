@@ -54,11 +54,11 @@ body {
     radial-gradient(closest-side, rgba(170, 142, 245, 1), rgba(170, 142, 245, 0)),
     radial-gradient(closest-side, rgba(248, 192, 147, 1), rgba(248, 192, 147, 0));
     background-size: 
-    130vmax 130vmax,
-    80vmax 80vmax,
+    150vmax 150vmax,
     90vmax 90vmax,
-    110vmax 110vmax,
-    90vmax 90vmax;
+    100vmax 100vmax,
+    120vmax 120vmax,
+    100vmax 100vmax;
     background-position:
     -80vmax -80vmax,
     60vmax -30vmax,
